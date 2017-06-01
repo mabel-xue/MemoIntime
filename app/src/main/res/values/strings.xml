@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">及时备忘录</string>
+    <string name="memo_title_hint">Enter contents for the memo.</string>
+    <string name="memo_details_label">Details</string>
+    <string name="memo_title_label">Title</string>
+    <string name="memo_solved_label">Solved</string>
+    <string name="date_picker_title">Date of memo:</string>
+    <string name="new_memo">New Memo</string>
+    <string name="show_subtitle">Show Subtitle</string>
+    <string name="subtitle_format">%1$s memos</string>
+    <string name="hide_subtitle">Hide Subtitle</string>
+    <string name="delete_memo">Delete</string>
+    <string name="memo_contacts_text">CHOOSE CONTACTS</string>
+    <string name="memo_report_text">SEND MEMO REPORT</string>
+    <string name="memo_report_solved">The case is solved</string>
+    <string name="memo_report_unsolved">The case is not solved</string>
+    <string name="memo_report_no_contacts">there is no contacts.</string>
+    <string name="memo_report_contacts">the contacts is %s.</string>
+    <string name="memo_report">%1$s! The memo was discovered on %2$s. %3$s, and %4$s</string>
+    <string name="memo_report_subject">MemoInTime Memo Content</string>
+    <string name="send_report">Send memo content via</string>
+    <plurals name="subtitle_plural">
+        <item quantity="one">%1$s memo</item>
+        <item quantity="other">%1$s memos</item>
+    </plurals>
+
+</resources>

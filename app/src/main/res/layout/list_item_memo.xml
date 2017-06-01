@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+    <CheckBox
+        android:id="@+id/list_item_memo_solved_check_box"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="4dp"
+        android:layout_alignParentRight="true"/>
+
+    <TextView
+        android:id="@+id/list_item_memo_title_text_view"
+        android:text="Memo Title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="4dp"
+        android:layout_toLeftOf="@id/list_item_memo_solved_check_box"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/list_item_memo_date_text_view"
+        android:text="Memo Date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="4dp"
+        android:layout_below="@id/list_item_memo_title_text_view"
+        android:layout_toLeftOf="@id/list_item_memo_solved_check_box"/>
+</RelativeLayout>

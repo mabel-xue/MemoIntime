@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginLeft="16dp"
+              android:layout_marginRight="16dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="4dp">
+
+        <ImageView
+            android:id="@+id/memo_photo"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@android:color/darker_gray"
+            android:scaleType="centerInside"
+            android:cropToPadding="true"/>
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@android:drawable/ic_menu_camera"
+            android:id="@+id/memo_camera"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <TextView
+            android:text="@string/memo_title_label"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="?android:listSeparatorTextViewStyle"/>
+
+        <EditText
+            android:id="@+id/memo_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/memo_title_hint"
+            android:layout_marginRight="16dp"/>
+    </LinearLayout>
+
+</LinearLayout>
